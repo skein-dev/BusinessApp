@@ -1,15 +1,13 @@
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React, { Component } from 'react'
+import { Text, View } from 'react-native'
 
-export default class App extends React.Component {
-   state = {
-      myState: "hello world"
-   }
-   render() {
-      return (
+const PresentationalComponent = (props) => {
+   return (
       <View>
-         <Text> {this.state.myState} </Text>
+         <Text onPress = {props.updateState}>
+            {props.myState}
+         </Text>
       </View>
-      );
-   }
+   )
 }
+export default PresentationalComponent
