@@ -9,7 +9,7 @@ export default class App extends React.Component {
    render() {
       return (
          <View>
-            <PresentationalComponent myState = {this.state.myState}/>
+            <PresentationalComponent sendState = {this.state.myState}/>
          </View>
       );
    }

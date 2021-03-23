@@ -4,7 +4,7 @@ import { Text, View, StyleSheet } from 'react-native'
 const PresentationalComponent = (props) => {
    return (
       <View>
-         <Text style = {styles.myState}>
+         <Text style = {styles.myStyle}>
             {props.myState}
          </Text>
       </View>
@@ -13,11 +13,11 @@ const PresentationalComponent = (props) => {
 export default PresentationalComponent
 
 const styles = StyleSheet.create ({
-   myState: {
-      marginTop: 20,
+   myStyle: {
+      marginTop: 30,
       textAlign: 'center',
-      color: 'blue',
+      color: 'blac',
       fontWeight: 'bold',
-      fontSize: 20
+      fontSize: 25
    }
 })
