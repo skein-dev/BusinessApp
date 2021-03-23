@@ -4,12 +4,12 @@ import PresentationalComponent from './PresentationalComponent'
 
 export default class App extends React.Component {
    state = {
-      myState: 'This is my state'
+      myState: 'Welcome to visit our company.'
    }
    render() {
       return (
          <View>
-            <PresentationalComponent sendState = {this.state.myState}/>
+            <PresentationalComponent sendstate = {this.state.myState}/>
          </View>
       );
    }
