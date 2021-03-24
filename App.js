@@ -11,6 +11,7 @@ export default class App extends React.Component{
       return(
          <View>
             <PresentationalComponent sendState = {this.state.myState}></PresentationalComponent>
+            
          </View>
       );
    }
