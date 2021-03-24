@@ -1,15 +1,16 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { View } from 'react-native';
 import PresentationalComponent from './PresentationalComponent'
 
-export default class App extends React.Component {
+
+export default class App extends React.Component{
    state = {
-      myState: 'Welcome to visit our company.'
+      myState : "welcome",
    }
    render() {
-      return (
+      return(
          <View>
-            <PresentationalComponent sendstate = {this.state.myState}/>
+            <PresentationalComponent sendState = {this.state.myState}></PresentationalComponent>
          </View>
       );
    }
