@@ -13,10 +13,11 @@ export default PresentationalComponent
 
 const style = StyleSheet.create ({
    viewScal: {
+      flexDirection: 'row',
       justifyContent: 'space-between',
-      alignItems: 'flex-end',
-      height: '736px',
-      padding: '50px',
+      alignItems: 'center',
+      height: '100vh',
+      padding: '10%',
    },
    myStyle: {
       width: 100,

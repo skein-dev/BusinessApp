@@ -1,7 +1,7 @@
-import React from 'react';
-import { View } from 'react-native';
-import PresentationalComponent from './PresentationalComponent'
-
+import React from 'react'
+import { View } from 'react-native'
+import PresentationalComponent from './src/components/PresentationalComponent'
+import List from './src/components/List'
 
 export default class App extends React.Component{
    state = {
@@ -10,8 +10,8 @@ export default class App extends React.Component{
    render() {
       return(
          <View>
+            <List/>
             <PresentationalComponent sendState = {this.state.myState}></PresentationalComponent>
-            
          </View>
       );
    }
