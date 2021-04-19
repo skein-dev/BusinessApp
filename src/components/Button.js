@@ -9,6 +9,7 @@ class Buttons extends Component {
                     <Text style = {styles.text}>
                     Button
                     </Text>
+                    
                 </TouchableOpacity>
             </View>
         )
